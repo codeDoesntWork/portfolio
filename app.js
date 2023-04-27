@@ -17,11 +17,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/', function(req, res){
     // res.sendFile(__dirname + "/index.html");
-    res.render('pages/index');
+    res.render('index');
 });
 app.get('/work', function(req, res){
     // res.sendFile(__dirname + "/work.html");
-    res.render('pages/work');
+    res.render('work');
 });
 app.get('/project', function(req, res){
     // res.sendFile("project");
